@@ -33,6 +33,28 @@
             <main id="contact">
                 <h1>Contato</h1>
                 <section id="contact-section">
+                    
+                    <form id="contact-form">
+                        <div>
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="subject">Assunto:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div>
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" onclick="alert('Sua mensagem foi enviada, em breve retornaremos o contato!')">Enviar</button>
+                        </div>
+                    </form>
 
                 </section>
             </main>
