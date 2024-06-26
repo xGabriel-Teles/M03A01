@@ -61,8 +61,6 @@ header div, header nav, .list-item {
     transition: 0.5s;
 }
 
-
-
 main section {
     color: #fff;
 }
@@ -96,7 +94,19 @@ td:hover {
 }
 
 
+/* PÁGINA SERVIÇOS */
+
 #services td {
     padding: 2rem;
 }
 
+#services table {
+    margin: 0 auto;
+}
+
+#services h1 {
+    text-align: center;
+    margin: 0;
+}
+
+/* PÁGINA CONTATO  */
